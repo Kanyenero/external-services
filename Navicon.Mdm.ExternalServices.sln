@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Web", "Navicon.Mdm.ExternalServices.Web\Navicon.Mdm.ExternalServices.Web.csproj", "{74B5FCE3-D962-4842-B1BD-8AD302C9A788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Infrastructure", "Navicon.Mdm.ExternalServices.Infrastructure\Navicon.Mdm.ExternalServices.Infrastructure.csproj", "{3A8393C0-0776-483A-9AA4-89BB675C6EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5AF55C5-019D-47E4-8E4E-E0B8C0CD412C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Model", "Navicon.Mdm.ExternalServices.Model\Navicon.Mdm.ExternalServices.Model.csproj", "{AAA040D7-38A8-4B99-B2EF-E2F705440022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.InfrastructureContracts", "Navicon.Mdm.ExternalServices.InfrastructureContracts\Navicon.Mdm.ExternalServices.InfrastructureContracts.csproj", "{3E9FD4A9-F685-4D35-B97C-73BAFD0FB41F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Web.Tests", "Navicon.Mdm.ExternalServices.Web.Tests\Navicon.Mdm.ExternalServices.Web.Tests.csproj", "{DD84364B-013B-4ADD-AF98-E03EA6107C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Infrastructure.DaData", "Navicon.Mdm.ExternalServices.Infrastructure.DaData\Navicon.Mdm.ExternalServices.Infrastructure.DaData.csproj", "{6B54AF5D-871B-4F24-B8CD-DB2A7AE34C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Dto", "Navicon.Mdm.ExternalServices.Dto\Navicon.Mdm.ExternalServices.Dto.csproj", "{0012CA92-4493-47E7-9549-7A0E4CC7AF65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Service", "Navicon.Mdm.ExternalServices.Service\Navicon.Mdm.ExternalServices.Service.csproj", "{21AFD087-99A1-4CED-8739-C27CAC1D354C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.ServiceContracts", "Navicon.Mdm.ExternalServices.ServiceContracts\Navicon.Mdm.ExternalServices.ServiceContracts.csproj", "{064AF3C5-D503-45E3-9D9D-3FEC87CF71D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navicon.Mdm.ExternalServices.Extensions", "Navicon.Mdm.ExternalServices.Extensions\Navicon.Mdm.ExternalServices.Extensions.csproj", "{3E5775E1-C001-4AB9-9F20-F1AC527F2E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navicon.Mdm.ExternalServices.Configuration", "Navicon.Mdm.ExternalServices.Configuration\Navicon.Mdm.ExternalServices.Configuration.csproj", "{9875DF8F-D220-44D5-AC89-CBC986F2D965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B5FCE3-D962-4842-B1BD-8AD302C9A788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B5FCE3-D962-4842-B1BD-8AD302C9A788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B5FCE3-D962-4842-B1BD-8AD302C9A788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B5FCE3-D962-4842-B1BD-8AD302C9A788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8393C0-0776-483A-9AA4-89BB675C6EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8393C0-0776-483A-9AA4-89BB675C6EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8393C0-0776-483A-9AA4-89BB675C6EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8393C0-0776-483A-9AA4-89BB675C6EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA040D7-38A8-4B99-B2EF-E2F705440022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA040D7-38A8-4B99-B2EF-E2F705440022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA040D7-38A8-4B99-B2EF-E2F705440022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA040D7-38A8-4B99-B2EF-E2F705440022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9FD4A9-F685-4D35-B97C-73BAFD0FB41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9FD4A9-F685-4D35-B97C-73BAFD0FB41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9FD4A9-F685-4D35-B97C-73BAFD0FB41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9FD4A9-F685-4D35-B97C-73BAFD0FB41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD84364B-013B-4ADD-AF98-E03EA6107C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD84364B-013B-4ADD-AF98-E03EA6107C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD84364B-013B-4ADD-AF98-E03EA6107C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD84364B-013B-4ADD-AF98-E03EA6107C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B54AF5D-871B-4F24-B8CD-DB2A7AE34C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B54AF5D-871B-4F24-B8CD-DB2A7AE34C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B54AF5D-871B-4F24-B8CD-DB2A7AE34C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B54AF5D-871B-4F24-B8CD-DB2A7AE34C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0012CA92-4493-47E7-9549-7A0E4CC7AF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0012CA92-4493-47E7-9549-7A0E4CC7AF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0012CA92-4493-47E7-9549-7A0E4CC7AF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0012CA92-4493-47E7-9549-7A0E4CC7AF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AFD087-99A1-4CED-8739-C27CAC1D354C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AFD087-99A1-4CED-8739-C27CAC1D354C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AFD087-99A1-4CED-8739-C27CAC1D354C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AFD087-99A1-4CED-8739-C27CAC1D354C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064AF3C5-D503-45E3-9D9D-3FEC87CF71D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064AF3C5-D503-45E3-9D9D-3FEC87CF71D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064AF3C5-D503-45E3-9D9D-3FEC87CF71D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064AF3C5-D503-45E3-9D9D-3FEC87CF71D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5775E1-C001-4AB9-9F20-F1AC527F2E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5775E1-C001-4AB9-9F20-F1AC527F2E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5775E1-C001-4AB9-9F20-F1AC527F2E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5775E1-C001-4AB9-9F20-F1AC527F2E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9875DF8F-D220-44D5-AC89-CBC986F2D965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9875DF8F-D220-44D5-AC89-CBC986F2D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9875DF8F-D220-44D5-AC89-CBC986F2D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9875DF8F-D220-44D5-AC89-CBC986F2D965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66EBEBBB-0FC4-4D2D-A4F8-BA68DC23A3C9}
+	EndGlobalSection
+EndGlobal

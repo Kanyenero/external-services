@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.Dto\Navicon.Mdm.ExternalServices.Dto.csproj" />
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.Model\Navicon.Mdm.ExternalServices.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Navicon.Mdm.MasterData.BusinessRules.Dto">
+      <HintPath>..\..\..\Backend\Navicon.Mdm.MasterData.BusinessRules.Dto\bin\Debug\net7.0\Navicon.Mdm.MasterData.BusinessRules.Dto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

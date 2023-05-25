@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.Extensions\Navicon.Mdm.ExternalServices.Extensions.csproj" />
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.InfrastructureContracts\Navicon.Mdm.ExternalServices.InfrastructureContracts.csproj" />
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.ServiceContracts\Navicon.Mdm.ExternalServices.ServiceContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Navicon.Mdm.MasterData.BusinessRules.Dto">
+      <HintPath>..\..\..\Backend\Navicon.Mdm.MasterData.BusinessRules.Dto\bin\Debug\net7.0\Navicon.Mdm.MasterData.BusinessRules.Dto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dadata" Version="22.6.0" />
+    <PackageReference Include="FuzzySharp" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.Extensions\Navicon.Mdm.ExternalServices.Extensions.csproj" />
+    <ProjectReference Include="..\Navicon.Mdm.ExternalServices.Infrastructure\Navicon.Mdm.ExternalServices.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
