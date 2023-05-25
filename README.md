@@ -44,61 +44,61 @@
 ###  Результат обогащения
 ```json
 {
-	"Alerts": [
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "Surname",
-			"SeverityType": "Info",
-			"Message": "Сервис автоматической проверки успешно определил фамилию."
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "Name",
-			"SeverityType": "Info",
-			"Message": "Сервис автоматической проверки успешно определил имя."
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "MiddleName",
-			"SeverityType": "Info",
-			"Message": "Сервис автоматической проверки успешно определил отчество."
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "CustomerGender",
-			"SeverityType": "Info",
-			"Message": "Сервис автоматической проверки успешно определил пол."
-		}
-	],
-	"Changes": [
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "Surname",
-			"Value": "Иванов"
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "Name",
-			"Value": "Иван"
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "MiddleName",
-			"Value": "Иванович"
-		},
-		{
-			"PrimitiveEntityName": "Customer",
-			"MdmCode": "1",
-			"AttributeName": "CustomerGender",
-			"Value": "М"
-		}
-	]
+  "Alerts": [
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "Surname",
+      "SeverityType": "Info",
+      "Message": "Сервис автоматической проверки успешно определил фамилию."
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "Name",
+      "SeverityType": "Info",
+      "Message": "Сервис автоматической проверки успешно определил имя."
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "MiddleName",
+      "SeverityType": "Info",
+      "Message": "Сервис автоматической проверки успешно определил отчество."
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "CustomerGender",
+      "SeverityType": "Info",
+      "Message": "Сервис автоматической проверки успешно определил пол."
+    }
+  ],
+  "Changes": [
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "Surname",
+      "Value": "Иванов"
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "Name",
+      "Value": "Иван"
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "MiddleName",
+      "Value": "Иванович"
+    },
+    {
+      "PrimitiveEntityName": "Customer",
+      "MdmCode": "1",
+      "AttributeName": "CustomerGender",
+      "Value": "М"
+    }
+  ]
 }
 ```
